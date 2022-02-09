@@ -1,5 +1,5 @@
 exports['Package Exported files 1'] = {
-  "name": "@gerandon/vis-timeline",
+  "name": "@gerandon/vis-timeline                  ",
   "files": [
     "        HISTORY.md",
     "        LICENSE.Apache-2.0.txt",
