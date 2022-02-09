@@ -124,7 +124,6 @@ workflows:
           requires:
             - prepare
             - build
-            - examples
             # - lint
             - test
           filters:
@@ -136,7 +135,6 @@ workflows:
           requires:
             - prepare
             - build
-            - examples
             # - lint
             - test
           filters:
