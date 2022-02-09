@@ -1,12 +1,12 @@
 {
-  "name": "vis-timeline",
-  "version": "0.0.0-no-version",
+  "name": "@gerandon/vis-timeline",
+  "version": "1.0.0",
   "description": "Create a fully customizable, interactive timeline with items and ranges.",
-  "homepage": "https://visjs.github.io/vis-timeline/",
+  "homepage": "https://github.com/Gerandon/vis-timeline/",
   "license": "(Apache-2.0 OR MIT)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/visjs/vis-timeline.git"
+    "url": "https://github.com/Gerandon/vis-timeline.git"
   },
   "bugs": {
     "url": "https://github.com/visjs/vis-timeline/issues"
@@ -246,7 +246,7 @@
     "Vincent Lecrubier <vincent.lecrubier@gmail.com>",
     "Vx2gas <joshholdaway@outlook.com>",
     "Yaroslav Nechaev <remper@me.com>",
-    "Yuxuan (Tim) Hong <hongyuxuan@gmail.com>",
+    "Yuxuan <hongyuxuan@gmail.com> (Tim)",
     "cmolinaAlicante <dinedel@gmail.com>",
     "dockstreet <omarbkhan@yahoo.com>",
     "easleydp <easleydp@gmail.com>",
@@ -257,11 +257,18 @@
     "michel404 <michelfugers@gmail.com>",
     "mimafogeus2 <github@foge.us>",
     "morrissh <morrissh@airproducts.com>",
-    "oliver <oliver@werklaptop2.(none)>",
+    "oliver <oliver@werklaptop2.(none)> (none)",
     "softwareCobbler <davidwrogers2@gmail.com>",
     "synthomat <info@sublink.de>",
     "thomasbarone <thomas.barone@spectraqest.com>",
     "unknown <schneidersb@NB1207305.koehl.eu>"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "Gergő Asztalos"
 }
