@@ -140,4 +140,4 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - package-master
