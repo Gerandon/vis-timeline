@@ -1,6 +1,6 @@
 {
   "name": "@gerandon/vis-timeline",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create a fully customizable, interactive timeline with items and ranges.",
   "homepage": "https://github.com/Gerandon/vis-timeline/",
   "license": "(Apache-2.0 OR MIT)",
