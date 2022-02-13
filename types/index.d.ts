@@ -767,6 +767,7 @@ export interface TimelineItem {
   type?: TimelineItemType;
   editable?: TimelineItemEditableType;
   selectable?: boolean;
+  snap?: TimelineOptionsSnapType;
 }
 
 export interface TimelineGroup {
