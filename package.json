@@ -18,7 +18,8 @@
     "chart",
     "linechart",
     "timeline",
-    "graph"
+    "graph",
+    "hozirontal scroll"
   ],
   "browser": "peer/umd/vis-timeline-graph2d.min.js",
   "jsnext": "esnext/esm/vis-timeline-graph2d.js",

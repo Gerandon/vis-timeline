@@ -1,3 +1,38 @@
+# @Gerandon/vis-timeline
+
+This package is a modified version of the original [vis-timeline](https://www.npmjs.com/package/vis-timeline)
+
+The main differences between this and the origin one are the following:
+<table>
+    <thead>
+        <tr>
+            <th>Modified</th>
+            <th>Short Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Position calculation fix for Dragged element drag position and cursor current position</td>
+            <td>Previously when we dragged an element, the cursor position and the element start/end position were aligned while dragging. But this calculation was created with an offset handle method and the calculation of this offset was depending on the actual timeline window start/end (because it was calcualted with pixels on the screen). After the implementation of the horizontal scroll, the problem became visible, and that offset calculation was wrong. That is fixed now</td>
+        </tr>
+        <tr>
+            <td>Horizontal scroll while dragging an element</td>
+            <td>There was no possibility to implement Horizontal scrolling while dragging an element. We had the possibility to create a fix outside the box on the implementaiton side, but because of the already mentioned Position caluclation problem, it was buggy. So basically, together with that fix, the horizontal scroll was added too</td>
+        </tr>
+        <tr>
+            <td>Snap implemented to item by item (not just as timeline option)</td>
+            <td>Currently we have the opportunity to define a Snap function, but only timeline wide. So only as a timeline option. Now we can define that snap function item-by-item too</td>
+        </tr>
+    </tbody>
+</table>
+
+You can check these feature in on <b>../vis-timeline/examples/timeline/editing/horizontalScrollWhileDrag.html</b>
+
+<hr>
+<hr>
+
+#Original package documenation
+
 # vis-timeline
 
 ![example chart](docs/img/timeline.png)
