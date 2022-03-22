@@ -23,6 +23,10 @@ The main differences between this and the origin one are the following:
             <td>Snap implemented to item by item (not just as timeline option)</td>
             <td>Currently we have the opportunity to define a Snap function, but only timeline wide. So only as a timeline option. Now we can define that snap function item-by-item too</td>
         </tr>
+        <tr>
+            <td>Added <b>dragMouseEvent</b> to TimelineItem as new property</td>
+            <td>While dragging, the mouse event will be propagated as TimeLineItem property to the implementation side. This way we will be able to track mouse event on impl. side.</td>
+        </tr>
     </tbody>
 </table>
 
