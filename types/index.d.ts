@@ -768,6 +768,7 @@ export interface TimelineItem {
   editable?: TimelineItemEditableType;
   selectable?: boolean;
   snap?: TimelineOptionsSnapType;
+  dragMouseEvent?: HammerInput;
 }
 
 export interface TimelineGroup {
